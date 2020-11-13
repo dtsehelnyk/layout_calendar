@@ -1,0 +1,17 @@
+@each $day, $margin in $days {
+  .calendar-#{$day} > div:first-of-type {
+    margin-left: #{$margin};
+  }
+}
+
+@for $i from 28 through 31 {
+  .calendar-#{$i} > div:nth-child(-n+#{$i}) {
+    display: block;
+  }
+}
+
+@for $i from 1 through 31 {
+  .calendar > div:nth-child(#{$i}):before {
+    content: "#{$i}";
+  }
+}
