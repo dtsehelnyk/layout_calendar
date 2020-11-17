@@ -1,7 +1,7 @@
 .calendar {
   display: flex;
   flex-wrap: wrap;
-  width: 7 * $cell-size + 7 * $cell-gap;
+  width: 7 * ($cell-size + $cell-gap);
 
   > div {
     display: none;
