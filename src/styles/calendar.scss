@@ -3,7 +3,7 @@
   flex-wrap: wrap;
   width: 7 * ($cell-size + $cell-gap);
 
-  > div {
+  &__day {
     display: none;
     position: relative;
     height: $cell-size;

@@ -3,10 +3,11 @@
 @import "reset";
 @import "calendar";
 
-body {
+.page {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 100px;
   min-height: 100vh;
   font-family: Arial, serif;
 }
