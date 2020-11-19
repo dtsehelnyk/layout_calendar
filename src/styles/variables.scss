@@ -1,7 +1,7 @@
 $cell-size: 100px;
 $cell-gap: 1px;
 $days:
-  (mon, $cell-size),
+  (mon, 0),
   (tue, $cell-size + $cell-gap),
   (wed, ($cell-size + $cell-gap) * 2),
   (thu, ($cell-size + $cell-gap) * 3),
